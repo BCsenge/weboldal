@@ -1,141 +1,140 @@
 body {
-    background-color: rgb(217, 179, 255);
+    background-color: rgb(217, 179, 255); /*háttérszín beállítása az egész oldalon*/
 }
 
 header {
-    position: relative;
-    display: inline;
+    position: relative; /*a fejléc pozícióját állítjuk be*/
+    display: inline;    /*egy sorba jelenik meg*/
 }
 
-
-
 hgroup.felso {
-    background-color: black;
+    background-color: black; /*adott elem háttérszíne*/
 }
 
 h1.cím {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 55px;
-    color:black;
-    background: #333333;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
-    display: inline;
-    padding: 25px;
-    margin-left: 135px;
-    margin-right: 135px;
-    font-style: italic;
+    text-align: center; /*középre igazítás*/
+    font-family: sans-serif; /*betűcsalád kiválasztása*/
+    font-size: 55px; /*betűméret kiválasztása*/
+    color:black; /*betűszín kiválasztása*/
+    background: #333333; /*adott elem háttérszíne*/
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px; /*szövegárnyék hozzáadása*/
+    display: inline; /*egy sorba jelenik meg*/
+    padding: 25px; /*belső margó értéke*/
+    margin-left: 135px; /*bal margó értéke*/
+    margin-right: 135px; /*jobb margó értéke*/
+    font-style: italic; /*dőlt betűstílus használata*/
 }
+
 
 figure.logobal {
     
-    display: inline;
+    display: inline; /*egy sorba jelenik meg*/
     
 }
 
 figure.logojobb {
     
-    display: inline;
+    display: inline; /*egy sorba jelenik meg*/
     
 }
 
 hgroup.kozepso {
-    background-color: rgb(217, 179, 255);
+    background-color: rgb(191,148,228); /*adott elem háttérszíne*/
 }
 
 a.first:link {
-    text-align: center;
-    font-weight: bold;
-    display: inline;
-    color: rgb(0,0,0);
-    text-decoration: none;
-    margin-inline: 35px;
-    white-space: normal;
-    font-size: 35px;
+    text-align: center; /*középre igazítás*/
+    font-weight: bold; /*félkövér betűtípus*/
+    display: inline; /*egy sorba jelenik meg*/
+    color: rgb(0,0,0); /*betűszín kiválasztása*/
+    text-decoration: none; /*nincs szövegre vonatkozó dekoráció*/
+    margin-inline: 35px; /*mindkét oldalon (bal és jobb) 35 pixel margó lesz alkalmazva*/
+    white-space: normal; /*alapértelmezett szóköz*/
+    font-size: 35px; /*betűméret kiválasztása*/
 }
 
 a.first:hover {
-    text-decoration: underline;
-    font-size: 40px;
-    color: rgb(128,0,128);
+    text-decoration: underline; /*szöveg aláhúzása*/
+    font-size: 40px; /*betűméret kiválasztása*/
+    color: rgb(128,0,128); /*betűszín kiválasztása*/
 }
 
 hgroup.also {
-    background-color: black;
-    height: 80px;
-    text-align: center;
+    background-color: black; /*adott elem háttérszíne*/
+    height: 80px; /*adott elem magassága*/
+    text-align: center; /*középre igazítás*/
 }
 
 h2.idezet {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 35px;
-    font-weight: normal;
-    color: #FFFFFF;
-text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+    text-align: center; /*idézet középre igazítása*/
+    font-family: sans-serif; /*betűcsalád kiválasztása*/
+    font-size: 35px; /*betűméret kiválasztása*/
+    font-weight: normal; /*a betű vastagsága normál*/
+    color: #FFFFFF; /*betűszín kiválasztása*/
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px; /*szövegárnyék hozzáadása*/
 }
 
 h1.főcím {
-    text-align: center;
-    font-family: arial;
-    font-size: 30px;
+    text-align: center; /*a főcím középre igazítása*/
+    font-family: arial; /*betűcsalád kiválasztása*/
+    font-size: 30px; /*betűméret kiválasztása*/
 }
 
 figure {
-   text-align: center;
+   text-align: center; /*a kép középre igazítása*/
 }
 
 p {
-   text-align: center;
-   font-family: arial;
-   font-size: 20px;
+   text-align: center; /*a szöveg középre igazítása*/
+   font-family: arial; /*betűcsalád kiválasztása*/
+   font-size: 20px; /*betűméret kiválasztása*/
 }
 
 h2.alcím {
-    text-align: center;
-    font-family: arial;
-    font-size: 25px;
+    text-align: center; /*a alcím középre igazítása*/
+    font-family: arial; /*betűcsalád kiválasztása*/
+    font-size: 25px; /*betűméret kiválasztása*/
 }
 
 footer.felso {
-    background-color: black;
+    background-color: black; /*adott elem háttérszíne*/
 }
 
 p.felso {
-    text-align: center;
-    color: rgb(221, 160, 221);
-    font-weight: bold;
-    font-size: 20px;
+    text-align: center; /*a szöveg középre igazítása*/
+    color: rgb(221, 160, 221); /*betűszín kiválasztása*/
+    font-weight: bold; /*félkövér betűtípus*/
+    font-size: 20px; /*betűméret kiválasztása*/
 }
 
 footer.kozepso {
-    background-color: rgb(217, 179, 255);
+    background-color: rgb(217, 179, 255); /*adott elem háttérszíne*/
 }
 
 p.kozepso {
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+    text-align: center; /*a szöveg középre igazítása*/
+    color: black; /*betűszín kiválasztása*/
+    font-weight: bold; /*félkövér betűtípus*/
+    font-size: 20px; /*betűméret kiválasztása*/
 }
 
 footer.also {
-    background-color: black;
+    background-color: black; /*adott elem háttérszíne*/
 }
 
 p.also {
-    text-align: center;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
+    text-align: center; /*a szöveg középre igazítása*/
+    color: white; /*betűszín kiválasztása*/
+    font-weight: bold; /*félkövér betűtípus*/
+    font-size: 25px; /*betűméret kiválasztása*/
 }
 
 a.vissza {
-    text-align: left;
-   font-family: arial;
-   font-weight: bold;
-   color:rgb(244, 4, 244);
-   font-size: 30px;
+   text-align: left; /*a szöveg balra igazítása*/
+   font-family: arial; /*betűcsalád kiválasztása*/
+   font-weight: bold; /*félkövér betűtípus*/
+   color:rgb(244, 4, 244); /*betűszín kiválasztása*/
+   font-size: 30px; /*betűméret kiválasztása*/
 }
 
 
